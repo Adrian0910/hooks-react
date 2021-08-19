@@ -8,7 +8,7 @@ export const useFetch = (url) => {
     // Validacion del componente (desmontado)
     useEffect(() => {
         return () => {
-            isMounted.current = false;
+            isMounted.current = false; 
         }
     },[]);
 
